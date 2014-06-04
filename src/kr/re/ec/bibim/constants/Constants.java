@@ -11,6 +11,11 @@ package kr.re.ec.bibim.constants;
 
 public class Constants {
 	
+	public static abstract class QueryHeaderConstantFrame {
+		public static final String LOGIN = "LOGIN";
+		public static final String INSERT = "INSERT";
+	}
+	
 	public static abstract class NetworkConstantFrame {
 		public static final int PORT = 9876;
 	}
