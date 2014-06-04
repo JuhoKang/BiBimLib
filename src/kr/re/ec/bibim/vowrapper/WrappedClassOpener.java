@@ -1,6 +1,7 @@
 package kr.re.ec.bibim.vowrapper;
 
 
+import kr.re.ec.bibim.vo.FolderData;
 import kr.re.ec.bibim.vo.UserData;
 
 public class WrappedClassOpener {
@@ -26,8 +27,7 @@ public class WrappedClassOpener {
 			return instance;
 		}
 	
-	public UserData OpenUserDataWrapper(UserDataWrapper udw)
-	{
+	public UserData OpenUserDataWrapper(UserDataWrapper udw){
 		UserData ud = new UserData();
 		
 		ud.setUserid(udw.getUserid());
@@ -35,6 +35,16 @@ public class WrappedClassOpener {
 		ud.setPassword(udw.getPassword());
 		
 		return ud;
+	}
+	
+	public FolderData OpenFolderDataWrapper(FolderDataWrapper fdw){
+		FolderData fd = new FolderData();
+		
+		fd.setFolderid(fdw.getFolderid());
+		fd.setName(fdw.getName());
+		fd.setUserid(fdw.getUserid());
+		
+		return fd;
 	}
 
 }

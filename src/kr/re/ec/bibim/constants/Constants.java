@@ -49,7 +49,7 @@ public class Constants {
 	public static abstract class FolderConstantFrame {
 
 		// table name
-		public static final String TABLE_NAME = "messagenote";
+		public static final String TABLE_NAME = "folder";
 		// column name
 		public static final String COLUMN_NAME_USERID = "userid";
 		public static final String COLUMN_NAME_FOLDERID = "folderid";
