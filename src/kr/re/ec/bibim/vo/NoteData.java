@@ -1,7 +1,13 @@
 package kr.re.ec.bibim.vo;
 
-public class NoteData {
+import java.io.Serializable;
+
+public class NoteData implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int noteid;
 	private int userid;
 	private int folderid;

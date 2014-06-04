@@ -1,8 +1,14 @@
 package kr.re.ec.bibim.vo;
 
+import java.io.Serializable;
 
-public class FolderData {
+
+public class FolderData implements Serializable{
 		
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int folderid;
 	private String name;
 	private int userid;

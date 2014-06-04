@@ -1,7 +1,13 @@
 package kr.re.ec.bibim.vo;
 
-public class MessageNoteData {
+import java.io.Serializable;
+
+public class MessageNoteData implements Serializable{
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int messagenoteid;
 	private String title;
 	private int userid;

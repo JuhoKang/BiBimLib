@@ -11,6 +11,12 @@ package kr.re.ec.bibim.constants;
 
 public class Constants {
 	
+	public static abstract class NotificationConstantFrame {
+		public static final String FOLDER = "FOLDER";
+		public static final String USER = "USER";
+		public static final String NOTE = "NOTE";
+	}
+	
 	public static abstract class QueryHeaderConstantFrame {
 		public static final String LOGIN = "LOGIN";
 		public static final String INSERT = "INSERT";
@@ -18,6 +24,7 @@ public class Constants {
 	
 	public static abstract class NetworkConstantFrame {
 		public static final int PORT = 9876;
+		public static final int SUBPORT = 9877;
 	}
 
 	public static abstract class DataBaseConstantFrame {
