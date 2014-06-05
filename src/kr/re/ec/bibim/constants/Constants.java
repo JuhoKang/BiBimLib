@@ -20,6 +20,8 @@ public class Constants {
 	public static abstract class QueryHeaderConstantFrame {
 		public static final String LOGIN = "LOGIN";
 		public static final String INSERT = "INSERT";
+		public static final String SELECT = "SELECT";
+		public static final String DELETE = "DELETE";
 	}
 	
 	public static abstract class NetworkConstantFrame {
