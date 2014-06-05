@@ -27,6 +27,7 @@ public class Constants {
 	public static abstract class NetworkConstantFrame {
 		public static final int PORT = 9876;
 		public static final int SUBPORT = 9877;
+		public static final byte[] ADDRESS = {(byte) 192,(byte)168,(byte)0,(byte)197};
 	}
 
 	public static abstract class DataBaseConstantFrame {
