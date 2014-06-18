@@ -2,6 +2,7 @@ package kr.re.ec.bibim.vowrapper;
 
 
 import kr.re.ec.bibim.vo.FolderData;
+import kr.re.ec.bibim.vo.NoteData;
 import kr.re.ec.bibim.vo.UserData;
 
 public class WrappedClassOpener {
@@ -45,6 +46,19 @@ public class WrappedClassOpener {
 		fd.setUserid(fdw.getUserid());
 		
 		return fd;
+	}
+	
+	public NoteData OpenNoteDataWrapper(NoteDataWrapper ndw){
+		NoteData nd = new NoteData();
+		
+		nd.setUserid(ndw.getUserid());
+		nd.setFolderid(ndw.getFolderid());
+		nd.setTitle(ndw.getTitle());
+		nd.setContent(ndw.getContent());
+		nd.setDate(ndw.getDate());
+		nd.setNoteid(ndw.getNoteid());
+		
+		return nd;
 	}
 
 }

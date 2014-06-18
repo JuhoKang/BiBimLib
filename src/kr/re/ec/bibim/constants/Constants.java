@@ -17,11 +17,17 @@ public class Constants {
 		public static final String NOTE = "NOTE";
 	}
 	
+	public static abstract class ExpressionConstantFrame {
+		public static final String FID = "FID";
+		public static final String ALL = "ALL";
+	}
+	
 	public static abstract class QueryHeaderConstantFrame {
 		public static final String LOGIN = "LOGIN";
 		public static final String INSERT = "INSERT";
 		public static final String SELECT = "SELECT";
 		public static final String DELETE = "DELETE";
+		public static final String UPDATE = "UPDATE";
 	}
 	
 	public static abstract class NetworkConstantFrame {
